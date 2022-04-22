@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">This is a survey form which will take user's opinion.</p>
+   <form id="survey-form">
+    <label for="fname" id="name-label">Name</label><br>
+    <input type="text" id="name" name="fname" placeholder="Enter your name" required><br>
+    <label for="fname" id="email-label">Email</label><br>
+    <input type="email" required id="email" name="fname" placeholder="Enter your email"><br>
+    <label for="fname" id="number-label">Age</label><br>
+    <input min="1" max="100" type="number" required id="number" required name="fname" placeholder="Age"><br>
+    <label>Select the option</label>
+    <select id="dropdown">
+      <option>A</option>
+      <option>B</option>
+      <option>C</option>
+    </select>
+    <br/>
+    <label>Select the option</label>
+    <br>
+    <input type="radio" value="A" name="radio1"/>
+    <label for="fnname">a</label><br>
+    <input type="radio" value="B" name="radio1"/>
+    <label for="fnname">b</label><br>
+    <label>Select the option</label>
+    <br>
+    <input type="checkbox" value="A" />
+    <label for="fnname">a</label><br>
+    <input type="checkbox" value="B" />
+    <label for="fnname">b</label><br>
+    <label>Enter additional comments</label><br>
+    <textarea name="text" rows="4" cols="50" placeholder="Enter a comment"></textarea>
+    <button id="submit" type="submit">Submit</button>
+   </form>
+  </body>
+</html>
